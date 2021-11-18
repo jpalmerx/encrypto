@@ -14,7 +14,7 @@ The problem is, if you find someone's BIP39 recovery phrase, e.g. 24 random word
 
 Encrypto uses the [ChanceJS](https://chancejs.com/) javascript library to repeatably shuffle (reorder) the BIP39 word list. Shuffling using the same encryption key will always produce the same order.
 
-The number outputted (in both decimal and hex forms) is a sequence of the 4-digit locations of each word.
+The number outputted is a sequence of the 4-digit locations of each word. The number is also provided in hex format as an alternative.
 
 For example:
 The seed phrase `adapt add addict` with the password `123` produces `017717401793`.
