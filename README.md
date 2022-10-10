@@ -1,5 +1,5 @@
 # Encrypto
-
+## Intro
 Encrypto is a simple js script for encoding and decoding a BIP39 recovery phrase to/from a decimal/hex number.
 
 Encrypto converts your BIP39 recovery phrase into a number which can be easily stored in plain sight. 
